@@ -127,6 +127,8 @@ debug.sf.early_gl_app_phase_offset_ns=15000000
 debug.sf.early_gl_phase_offset_ns=3000000
 debug.sf.early_phase_offset_ns=1500000
 debug.sf.enable_gl_backpressure=1
+debug.sf.enable_hwc_vds=1
+debug.sf.enable_egl_image_tracker=true
 debug.sf.hw=1
 debug.sf.latch_unsignaled=1
 ro.hardware.egl=adreno
@@ -202,6 +204,9 @@ ro.soc.model=SDM660
 
 # Time
 persist.vendor.delta_time.enable=true
+
+# UI
+sys.use_fifo_ui=1
 
 # BPF
 ro.kernel.ebpf.supported=true
