@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_platina.mk
+    $(LOCAL_DIR)/arrow_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_platina-user \
-    aosp_platina-userdebug \
-    aosp_platina-eng
+    arrow_platina-user \
+    arrow_platina-userdebug \
+    arrow_platina-eng
